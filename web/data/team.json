@@ -1,0 +1,54 @@
+{
+    "team": [
+      {
+        "id": 1,
+        "title": "Md Shahadat hossain Shahal",
+        "description": "BlockChain Engineer",
+        "isFeatured": true,
+        "image": "/images/shahal.jpg",
+        "profile": "https://github.com/shahadatw6"
+      },
+      {
+        "id": 2,
+        "title": "Mohammad Tasdir",
+        "description": "BlockChain Engineer",
+        "isFeatured": true,
+        "image": "/images/tasdir.jpg",
+        "profile": ""
+      },
+      {
+        "id": 3,
+        "title": "Anika Tabassum",
+        "description": "Task manager",
+        "isFeatured": true,
+        "image": "/images/Anika.jpg",
+        "profile": ""
+      },
+      {
+        "id": 4,
+        "title": "Sakibur Rahman Ananta",
+        "description": "Project Manager",
+        "isFeatured": true,
+        "image": "/images/Ananta.jpg",
+        "profile": ""
+      },
+      {
+        "id": 5,
+        "title": "Shafin Rahman Shimanta",
+        "description": "Financials officer",
+        "isFeatured": true,
+        "image": "/images/shimanta.jpg",
+        "profile": ""
+      },
+      {
+        "id": 6,
+        "title": "Sanjana Rodoshi",
+        "description": "Project Valuation manager",
+        "isFeatured": true,
+        "image": "/images/rodoshi.jpg",
+        "profile": ""
+      }
+      
+    ]
+  }
+  

@@ -1,0 +1,21 @@
+[
+    {
+      "nid": "1",
+      "full_name": "John Doe",
+      "father_name": "Father Doe",
+      "mother_name": "Mother Doe",
+      "date_of_birth": "1990-01-01",
+      "gender": "Male",
+      "blood_group": "O+",
+      "address": {
+        "village_or_road": "Some Road",
+        "post_office": "Some PO",
+        "upazila": "Some Upazila",
+        "district": "Some District",
+        "division": "Some Division"
+      },
+      "issue_date": "2010-01-01",
+      "expiry_date": "2030-01-01",
+      "fingerprintHash": "hash_of_john_doe_fingerprint"
+    }
+]

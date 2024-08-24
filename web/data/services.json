@@ -1,0 +1,64 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Marriage Registration",
+      "slug": "appointMarriage",
+      "description": "Register your marriage securely with our blockchain-based system.",
+      "price": 50.00,
+      "features": "Blockchain, KYC Verification, Secure Storage",
+      "isFeatured": true,
+      "image": "/services/marriage-registration.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Divorce Registration",
+      "slug": "appointDivorce",
+      "description": "File for divorce and manage your documents with ease and security.",
+      "price": 50.00,
+      "features": "Blockchain, Document Management, Secure Storage",
+      "isFeatured": true,
+      "image": "/services/divorce-registration.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Prenuptial Agreement",
+      "slug": "prenuptial-agreement",
+      "description": "Create and manage prenuptial agreements with legally binding documentation.",
+      "price": 100.00,
+      "features": "Legal Templates, Custom Agreements, Secure Storage",
+      "isFeatured": true,
+      "image": "/services/prenuptial-agreement.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Pre marital Verification",
+      "slug": "pre-merital-verification",
+      "description": "Verify your identity securely using our KYC services.",
+      "price": 20.00,
+      "features": "Porichoy.gov.bd Integration, Secure Verification, Fast Processing",
+      "isFeatured": true,
+      "image": "/services/kyc-verification.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Blockchain Certificate Verification",
+      "slug": "blockchain-certificate-verification",
+      "description": "Verify the authenticity of marriage and divorce certificates on the blockchain.",
+      "price": 10.00,
+      "features": "Blockchain Verification, Instant Results, Secure Processing",
+      "isFeatured": true,
+      "image": "/services/certificate-verification.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Download Document",
+      "slug": "download-document",
+      "description": "Store your marriage and divorce documents securely on our platform.",
+      "price": 5.00,
+      "features": "IPFS Storage, Secure Encryption, Easy Access",
+      "isFeatured": true,
+      "image": "/services/document-storage.jpg"
+    }
+  ]
+}

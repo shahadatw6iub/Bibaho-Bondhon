@@ -3,6 +3,7 @@ import { UiLayout } from '@/components/ui/ui-layout';
 import { ClusterProvider } from '@/components/cluster/cluster-data-access';
 import { SolanaProvider } from '@/components/solana/solana-provider';
 import { ReactQueryProvider } from './react-query-provider';
+import { WalletProvider } from '@/components/bibaho-bondhon/WalletContext';
 
 export const metadata = {
   title: 'complete-bd',
@@ -13,6 +14,8 @@ const links: { label: string; path: string }[] = [
   { label: 'Account', path: '/account' },
   { label: 'Clusters', path: '/clusters' },
   { label: 'Counter Program', path: '/counter' },
+  { label: 'Log in', path: '/login' },
+  { label: 'Services', path: '/services' },
 ];
 
 export default function RootLayout({
@@ -21,12 +24,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className="h-full">
+      <body className="flex flex-col min-h-screen h-full">
         <ReactQueryProvider>
           <ClusterProvider>
             <SolanaProvider>
-              <UiLayout links={links}>{children}</UiLayout>
+              <UiLayout links={links} />
+              <div className="flex-grow">
+                {children}
+              </div>
+              <footer className="bg-slate-900 text-neutral-content p-4">
+                <div className="container mx-auto text-center">
+                  © 2024 Your Company. All rights reserved.
+                </div>
+              </footer>
             </SolanaProvider>
           </ClusterProvider>
         </ReactQueryProvider>

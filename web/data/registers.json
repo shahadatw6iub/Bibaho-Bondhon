@@ -1,0 +1,14 @@
+{
+    "register": [
+      {
+        "id": 1,
+        "title": "Md Shahadat hossain Shahal",
+        "description": "Marriage Register",
+        "isFeatured": true,
+        "image": "/images/shahal.jpg",
+        "address": "0xaad9d41901bB3E3950F2d37EfeD0A429B54bA916"
+      }
+      
+    ]
+  }
+  

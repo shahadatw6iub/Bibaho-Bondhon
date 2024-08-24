@@ -1,0 +1,121 @@
+{
+    "countries": [
+      {
+        "name": "Bangladesh",
+        "cities": [
+          {
+            "name": "Dhaka",
+            "registration_offices": [
+              "Dhaka City Corporation Marriage Registrar Office",
+              "Gulshan Marriage Registrar Office",
+              "Mohammadpur Marriage Registrar Office"
+            ]
+          },
+          {
+            "name": "Chittagong",
+            "registration_offices": [
+              "Chittagong City Corporation Marriage Registrar Office",
+              "Agrabad Marriage Registrar Office",
+              "Khulshi Marriage Registrar Office"
+            ]
+          },
+          {
+            "name": "Sylhet",
+            "registration_offices": [
+              "Sylhet City Corporation Marriage Registrar Office",
+              "Zindabazar Marriage Registrar Office",
+              "Uposhohor Marriage Registrar Office"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "India",
+        "cities": [
+          {
+            "name": "Delhi",
+            "registration_offices": [
+              "Delhi Marriage Registrar Office",
+              "Saket Marriage Registrar Office",
+              "Patel Nagar Marriage Registrar Office"
+            ]
+          },
+          {
+            "name": "Mumbai",
+            "registration_offices": [
+              "Mumbai Marriage Registrar Office",
+              "Bandra Marriage Registrar Office",
+              "Andheri Marriage Registrar Office"
+            ]
+          },
+          {
+            "name": "Kolkata",
+            "registration_offices": [
+              "Kolkata Marriage Registrar Office",
+              "Salt Lake Marriage Registrar Office",
+              "Ballygunge Marriage Registrar Office"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "United States",
+        "cities": [
+          {
+            "name": "New York",
+            "registration_offices": [
+              "New York City Clerk's Office",
+              "Manhattan Marriage Bureau",
+              "Brooklyn Marriage Bureau"
+            ]
+          },
+          {
+            "name": "Los Angeles",
+            "registration_offices": [
+              "Los Angeles County Registrar",
+              "West Los Angeles Marriage Bureau",
+              "Van Nuys Marriage Bureau"
+            ]
+          },
+          {
+            "name": "Chicago",
+            "registration_offices": [
+              "Cook County Marriage License Bureau",
+              "Downtown Chicago Marriage Bureau",
+              "Northwest Marriage Bureau"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "United Kingdom",
+        "cities": [
+          {
+            "name": "London",
+            "registration_offices": [
+              "Westminster Register Office",
+              "Chelsea Old Town Hall",
+              "Islington and London City Register Office"
+            ]
+          },
+          {
+            "name": "Manchester",
+            "registration_offices": [
+              "Manchester Register Office",
+              "Salford Register Office",
+              "Stockport Register Office"
+            ]
+          },
+          {
+            "name": "Birmingham",
+            "registration_offices": [
+              "Birmingham Register Office",
+              "Solihull Register Office",
+              "Dudley Register Office"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
