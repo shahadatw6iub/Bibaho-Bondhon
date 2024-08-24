@@ -35,7 +35,7 @@ export default function RootLayout({
               </div>
               <footer className="bg-slate-900 text-neutral-content p-4">
                 <div className="container mx-auto text-center">
-                  © 2024 Your Company. All rights reserved.
+                  © 2024 BlockLab. All rights reserved.
                 </div>
               </footer>
             </SolanaProvider>

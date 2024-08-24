@@ -18,7 +18,7 @@ export function UiLayout({
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col">
       <div className="navbar bg-slate-900 text-neutral-content flex flex-col md:flex-row relative">
         <div className="flex justify-between items-center p-4">
           <Link className="btn btn-ghost normal-case text-xl" href="/">

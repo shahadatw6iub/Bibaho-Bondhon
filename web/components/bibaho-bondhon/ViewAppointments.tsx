@@ -74,6 +74,8 @@ const AppointmentsPage: React.FC = () => {
 
   return (
     <main className="relative flex flex-col w-full h-full items-center justify-center bg-zinc-50 dark:bg-zinc-900 text-white transition-bg">
+      <AuroraBackground>
+
       <div className="relative z-15 text-lg lg:text-4xl md:text-2xl sm:text-lg bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-sans font-bold mt-6">
         Appointments List
       </div>
@@ -119,7 +121,9 @@ const AppointmentsPage: React.FC = () => {
             ))}
           </tbody>
         </table>
-      </div>
+        </div>
+      </AuroraBackground>
+
     </main>
   );
 };
