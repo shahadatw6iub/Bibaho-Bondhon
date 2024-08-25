@@ -9,8 +9,7 @@ import Navbar from "./Navbar";
 import Image from "next/image";
 
 function HeroSection() {
-  return (
-    <AuroraBackground>
+  return (<main className="w-full flex relative flex flex-col w-full items-center justify-center bg-zinc-50 dark:bg-zinc-900 text-slate-950 transition-bg">
       <BackgroundBeams />
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
@@ -48,14 +47,14 @@ function HeroSection() {
           />
         </div>
         <div className="flex flex-col md:flex-row gap-4">
-          <Link href={"/signUp"}>
+          <Link href={"/services"}>
             <Button className="bg-black dark:bg-white rounded-full text-white dark:text-black px-6 py-3">
               Get Started
             </Button>
           </Link>
         </div>
       </motion.div>
-    </AuroraBackground>
+  </main>
   );
 }
 

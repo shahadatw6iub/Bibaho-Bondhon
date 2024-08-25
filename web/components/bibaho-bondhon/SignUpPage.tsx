@@ -174,16 +174,15 @@ function SignUpPage() {
           </button>
           {kycMessage && (
             <div
-              className={`mt-4 text-center font-medium py-2 px-12 ${
-                kycVerified ? "text-green-500" : "text-red-500"
-              }`}
+              className={`mt-4 text-center font-medium py-2 px-12 ${kycVerified ? "text-green-500" : "text-red-500"
+                }`}
             >
               {kycMessage}
             </div>
           )}
           {kycVerified && (
             <Link
-              href="/scanQR"
+              href="/showQR"
               className="mt-6 pd-5 py-2 px-12 border border-neutral-800 bg-gradient-to-br relative group/btn from-black dark:from-zinc dark:to-zinc-900 to-neutral-600 block dark:bg-zinc-800 w-auto text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
             >
               Scan Wallet <BottomGradient />

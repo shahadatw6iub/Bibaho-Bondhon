@@ -1,3 +1,4 @@
+import { AuroraBackground } from "@/components/ui/aurora-background";
 import Footer from "../../components/bibaho-bondhon/Footer";
 import Services from "../../components/bibaho-bondhon/Services";
 import React from "react";
@@ -5,9 +6,10 @@ import React from "react";
 function page() {
   return (
     <main>
-      <div></div>
-      <Services />
+      <AuroraBackground>      <Services />
+      </AuroraBackground>
       <Footer />
+
     </main>
   );
 }

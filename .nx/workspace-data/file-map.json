@@ -1,0 +1,1329 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.6.2",
+  "deps": {
+    "@coral-xyz/anchor": "^0.30.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@metaplex-foundation/js": "^0.20.1",
+    "@nrwl/cli": "^15.9.3",
+    "@nrwl/workspace": "^19.6.2",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@rewind-ui/core": "^0.20.0",
+    "@solana-developers/preset-next": "3.0.1",
+    "@solana/pay": "^0.2.5",
+    "@solana/spl-account-compression": "^0.1.9",
+    "@solana/spl-token": "0.4.6",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/web3.js": "^1.95.3",
+    "@tabler/icons-react": "3.5.0",
+    "@tailwindcss/typography": "0.5.13",
+    "@tanstack/react-query": "5.40.0",
+    "@tanstack/react-query-next-experimental": "5.40.0",
+    "bs58": "5.0.0",
+    "buffer": "6.0.3",
+    "clsx": "^2.1.1",
+    "daisyui": "^4.11.1",
+    "date-fns": "^3.6.0",
+    "encoding": "0.1.13",
+    "framer-motion": "^11.3.30",
+    "jotai": "2.8.3",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.4",
+    "next": "14.0.4",
+    "next-seo": "^6.5.0",
+    "qr-scanner": "^1.4.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-hook-form": "^7.52.2",
+    "react-hot-toast": "2.4.1",
+    "react-icons": "^5.3.0",
+    "tailwind-merge": "^2.5.2",
+    "tslib": "^2.3.0",
+    "@swc-node/register": "~1.8.0",
+    "@swc/cli": "~0.3.12",
+    "@swc/core": "~1.3.85",
+    "@swc/helpers": "~0.5.2",
+    "@swc/jest": "0.2.20",
+    "@types/bn.js": "^5.1.5",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.16.9",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "@types/tailwindcss": "^3.0.11",
+    "@typescript-eslint/eslint-plugin": "^7.3.0",
+    "@typescript-eslint/parser": "^7.3.0",
+    "autoprefixer": "10.4.13",
+    "eslint": "~8.57.0",
+    "eslint-config-next": "14.0.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "postcss": "8.4.21",
+    "prettier": "^2.6.2",
+    "tailwindcss": "3.2.7",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.4.2"
+  },
+  "pathMappings": {
+    "@/*": [
+      "./web/*"
+    ],
+    "@complete-bd/anchor": [
+      "anchor/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "yarn.lock",
+        "hash": "9445644992797029988"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "7032490051060470550"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "17191321825795947080"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "756318101139639894"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "nx.json",
+        "hash": "14557014133078539282"
+      },
+      {
+        "file": "vercel.json",
+        "hash": "1598408354266276258"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13262621391202437136"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "README.md",
+        "hash": "17172203896503313743"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "6983283808866658478"
+      },
+      {
+        "file": "package.json",
+        "hash": "16132484106034917422"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      }
+    ],
+    "projectFileMap": {
+      "web": [
+        {
+          "file": "web/.eslintrc.json",
+          "hash": "14075324894068274553"
+        },
+        {
+          "file": "web/app/NFT/page.tsx",
+          "hash": "11906423814515668995",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/aboutUs/page.tsx",
+          "hash": "2236839046618884174",
+          "deps": [
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/account/[address]/page.tsx",
+          "hash": "6596633881127005929"
+        },
+        {
+          "file": "web/app/account/page.tsx",
+          "hash": "10599815897590818234"
+        },
+        {
+          "file": "web/app/appointDivorce/page.tsx",
+          "hash": "2473967966642605767",
+          "deps": [
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/appointMarriage/page.tsx",
+          "hash": "822617226071453678",
+          "deps": [
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/blockchain-certificate-verification/page.tsx",
+          "hash": "6462300557830124297",
+          "deps": [
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/clusters/page.tsx",
+          "hash": "14394253094813460549"
+        },
+        {
+          "file": "web/app/contractInfo/MarriageAndDivorceDetails.json",
+          "hash": "3495965055652334426"
+        },
+        {
+          "file": "web/app/contractInfo/contractDetails.json",
+          "hash": "16686513055884599843"
+        },
+        {
+          "file": "web/app/counter/page.tsx",
+          "hash": "11347997082917207778"
+        },
+        {
+          "file": "web/app/download-document/page.tsx",
+          "hash": "16278490939144518518",
+          "deps": [
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/global.css",
+          "hash": "2494736463578114869"
+        },
+        {
+          "file": "web/app/layout.tsx",
+          "hash": "766505378420308819"
+        },
+        {
+          "file": "web/app/login/page.tsx",
+          "hash": "8171517392729589521",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/onBoardMember/page.tsx",
+          "hash": "15361991406766293885",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/page.module.css",
+          "hash": "10737967197474719036"
+        },
+        {
+          "file": "web/app/page.tsx",
+          "hash": "1207396853143022660"
+        },
+        {
+          "file": "web/app/pre-merital-verification/page.tsx",
+          "hash": "13083572496211114769",
+          "deps": [
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/proposeDivorce/page.tsx",
+          "hash": "15437216840424030235",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/proposeMarriage/page.tsx",
+          "hash": "17603291413745781063",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/react-query-provider.tsx",
+          "hash": "3045630838846882828",
+          "deps": [
+            "npm:react",
+            "npm:@tanstack/react-query-next-experimental",
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "web/app/scanQR/QrStyles.css",
+          "hash": "12214716611319330414"
+        },
+        {
+          "file": "web/app/scanQR/page.tsx",
+          "hash": "2921055111928507141",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/services/page.tsx",
+          "hash": "11780916775352007257",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/showQR/page.tsx",
+          "hash": "15783482173259027214",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/signUpMarriage/page.tsx",
+          "hash": "5998431063193431445"
+        },
+        {
+          "file": "web/app/styles/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "web/app/styles/globals.css",
+          "hash": "10582656168007810803"
+        },
+        {
+          "file": "web/app/thankYou/page.tsx",
+          "hash": "12447056966861166959",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/app/viewAppointments/page.tsx",
+          "hash": "17312600619301817156",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/account/account-data-access.tsx",
+          "hash": "12486200012402042725",
+          "deps": [
+            "npm:@solana/wallet-adapter-react",
+            "npm:@solana/spl-token",
+            "npm:@solana/web3.js",
+            "npm:@tanstack/react-query",
+            "npm:react-hot-toast"
+          ]
+        },
+        {
+          "file": "web/components/account/account-detail-feature.tsx",
+          "hash": "5865173071389282068",
+          "deps": [
+            "npm:@solana/web3.js",
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/account/account-list-feature.tsx",
+          "hash": "729224853085720231",
+          "deps": [
+            "npm:@solana/wallet-adapter-react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/account/account-ui.tsx",
+          "hash": "11349367009641504364",
+          "deps": [
+            "npm:@solana/wallet-adapter-react",
+            "npm:@solana/web3.js",
+            "npm:@tabler/icons-react",
+            "npm:@tanstack/react-query",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/Aboutus.tsx",
+          "hash": "5403563370149291845",
+          "deps": [
+            "npm:react",
+            "npm:framer-motion",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/AppointDivorce.tsx",
+          "hash": "1355948305221123429",
+          "deps": [
+            "npm:react",
+            "npm:date-fns",
+            "npm:@rewind-ui/core",
+            "npm:jspdf-autotable"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/Appointmarriage.tsx",
+          "hash": "5347394878513095396",
+          "deps": [
+            "npm:react",
+            "npm:date-fns",
+            "npm:@rewind-ui/core",
+            "npm:jspdf-autotable"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/BentoGrid.tsx",
+          "hash": "9131537520540159382",
+          "deps": [
+            "npm:react",
+            "npm:@tabler/icons-react"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/CreateWalletPage.tsx",
+          "hash": "1824208991724801808",
+          "deps": [
+            "npm:react",
+            "npm:@solana/web3.js",
+            "npm:bs58"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/FloatingNavbar.tsx",
+          "hash": "14296886157802287537",
+          "deps": [
+            "npm:react",
+            "npm:@tabler/icons-react"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/Footer.tsx",
+          "hash": "9315573161392702415",
+          "deps": [
+            "npm:react",
+            "npm:next",
+            "npm:react-icons",
+            "npm:react-hot-toast"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/HeroSection.tsx",
+          "hash": "5804242829772051516",
+          "deps": [
+            "npm:next",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/Loader.tsx",
+          "hash": "10926718351163119148",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/LogIn.tsx",
+          "hash": "13108334142838749387",
+          "deps": [
+            "npm:next",
+            "npm:react",
+            "npm:@solana/wallet-adapter-react"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/NFTCard.tsx",
+          "hash": "6736577008951417107",
+          "deps": [
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/Navbar.tsx",
+          "hash": "6961023739193449083",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/OnBoardForm.tsx",
+          "hash": "7034914032567575919",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/ProposeDivorce.tsx",
+          "hash": "1005801741655372667",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/ProposeMarriage.tsx",
+          "hash": "6586198544189932010",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/ScanAndInput.tsx",
+          "hash": "17727776959179372310",
+          "deps": [
+            "npm:react",
+            "npm:qr-scanner"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/Services.tsx",
+          "hash": "6443962007439916364",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/SignUpPage.tsx",
+          "hash": "6515773106560216328",
+          "deps": [
+            "npm:react",
+            "npm:next",
+            "npm:@solana/web3.js"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/Team.tsx",
+          "hash": "3789140266809092674",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/Valuation.tsx",
+          "hash": "15794264031380646277",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/ValuationSDG.tsx",
+          "hash": "14389241233078827403",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/ViewAppointments.tsx",
+          "hash": "1247734971531387461",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/WalletContext.tsx",
+          "hash": "8608476680556638051",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/Walletheader.tsx",
+          "hash": "3377110324984572674",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/WhyChooseUs.tsx",
+          "hash": "2495406882972945926",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/cluster/cluster-data-access.tsx",
+          "hash": "14689816500549093808",
+          "deps": [
+            "npm:@solana/web3.js",
+            "npm:jotai",
+            "npm:react",
+            "npm:react-hot-toast"
+          ]
+        },
+        {
+          "file": "web/components/cluster/cluster-feature.tsx",
+          "hash": "3533560093864689157",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/cluster/cluster-ui.tsx",
+          "hash": "16307074544026673789",
+          "deps": [
+            "npm:@solana/wallet-adapter-react",
+            "npm:@tabler/icons-react",
+            "npm:@tanstack/react-query",
+            "npm:react",
+            "npm:@solana/web3.js"
+          ]
+        },
+        {
+          "file": "web/components/counter/counter-data-access.tsx",
+          "hash": "13269358509566454812",
+          "deps": [
+            "anchor",
+            "npm:@coral-xyz/anchor",
+            "npm:@solana/wallet-adapter-react",
+            "npm:@solana/web3.js",
+            "npm:@tanstack/react-query",
+            "npm:react",
+            "npm:react-hot-toast"
+          ]
+        },
+        {
+          "file": "web/components/counter/counter-feature.tsx",
+          "hash": "3000985330401513847",
+          "deps": [
+            "npm:@solana/wallet-adapter-react"
+          ]
+        },
+        {
+          "file": "web/components/counter/counter-ui.tsx",
+          "hash": "1074293929783267875",
+          "deps": [
+            "npm:@solana/web3.js",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/dashboard/dashboard-feature.tsx",
+          "hash": "474896560668010590"
+        },
+        {
+          "file": "web/components/showQR/LinkCard.tsx",
+          "hash": "527643096708135990",
+          "deps": [
+            "npm:next",
+            "npm:@fortawesome/free-solid-svg-icons",
+            "npm:@fortawesome/react-fontawesome"
+          ]
+        },
+        {
+          "file": "web/components/showQR/NoticeMessage.tsx",
+          "hash": "1266605312637145943",
+          "deps": [
+            "npm:@solana/web3.js"
+          ]
+        },
+        {
+          "file": "web/components/showQR/QRPage.tsx",
+          "hash": "16633114676697371716",
+          "deps": [
+            "npm:next-seo",
+            "npm:react",
+            "npm:@solana/pay"
+          ]
+        },
+        {
+          "file": "web/components/showQR/core/AppFooter.tsx",
+          "hash": "11231921858168391067",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/showQR/core/AppHeader.tsx",
+          "hash": "827894154253746234",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/showQR/core/DefaultToaster.tsx",
+          "hash": "9370349855702060462",
+          "deps": [
+            "npm:react-hot-toast",
+            "npm:@fortawesome/react-fontawesome",
+            "npm:@fortawesome/free-solid-svg-icons"
+          ]
+        },
+        {
+          "file": "web/components/showQR/layouts/DefaultLayout.tsx",
+          "hash": "12878958983606825685",
+          "deps": [
+            "npm:next-seo"
+          ]
+        },
+        {
+          "file": "web/components/showQR/lib/constants/drops.ts",
+          "hash": "12944653071085070864"
+        },
+        {
+          "file": "web/components/showQR/lib/constants/general.ts",
+          "hash": "1134672403813640998"
+        },
+        {
+          "file": "web/components/showQR/lib/constants/index.ts",
+          "hash": "17266110605708208267"
+        },
+        {
+          "file": "web/components/showQR/lib/constants/staticDrops.ts",
+          "hash": "14805452452531001531",
+          "deps": [
+            "npm:@metaplex-foundation/mpl-bubblegum"
+          ]
+        },
+        {
+          "file": "web/components/showQR/lib/solana/SolanaConnection.ts",
+          "hash": "2497423039728382147",
+          "deps": [
+            "npm:@solana/web3.js",
+            "npm:bn.js",
+            "npm:@metaplex-foundation/mpl-token-metadata",
+            "npm:@metaplex-foundation/mpl-bubblegum",
+            "npm:@metaplex-foundation/js"
+          ]
+        },
+        {
+          "file": "web/components/showQR/lib/solana/SolanaPay.ts",
+          "hash": "2848267511516211058",
+          "deps": [
+            "npm:@solana/web3.js"
+          ]
+        },
+        {
+          "file": "web/components/showQR/lib/solana/collections.ts",
+          "hash": "14765882504992148069",
+          "deps": [
+            "npm:@solana/web3.js",
+            "npm:@solana/spl-token",
+            "npm:@metaplex-foundation/mpl-token-metadata"
+          ]
+        },
+        {
+          "file": "web/components/showQR/lib/solana/compression.ts",
+          "hash": "17284355003310744117",
+          "deps": [
+            "npm:@solana/web3.js",
+            "npm:@solana/spl-account-compression",
+            "npm:@metaplex-foundation/mpl-bubblegum",
+            "npm:@metaplex-foundation/mpl-token-metadata",
+            "npm:bn.js"
+          ]
+        },
+        {
+          "file": "web/components/showQR/lib/solana/general.ts",
+          "hash": "14514337885834480334",
+          "deps": [
+            "npm:@solana/web3.js"
+          ]
+        },
+        {
+          "file": "web/components/showQR/lib/solana/local-helpers.ts",
+          "hash": "3955979272981620800",
+          "deps": [
+            "npm:@solana/web3.js"
+          ]
+        },
+        {
+          "file": "web/components/showQR/lib/solana/transactions.ts",
+          "hash": "3276230667865885414",
+          "deps": [
+            "npm:@solana/web3.js"
+          ]
+        },
+        {
+          "file": "web/components/showQR/lib/solana/utils.ts",
+          "hash": "4006033995450002303",
+          "deps": [
+            "npm:@solana/web3.js"
+          ]
+        },
+        {
+          "file": "web/components/showQR/lib/utils/ipfs.ts",
+          "hash": "9879932197327306447"
+        },
+        {
+          "file": "web/components/showQR/lib/utils/logs.ts",
+          "hash": "12093397567498653300"
+        },
+        {
+          "file": "web/components/showQR/lib/utils/staticDrops.ts",
+          "hash": "11516249300372295443"
+        },
+        {
+          "file": "web/components/showQR/styles/Home.module.css",
+          "hash": "14160362854803381270"
+        },
+        {
+          "file": "web/components/showQR/styles/LinkCard.module.css",
+          "hash": "12129789181107667708"
+        },
+        {
+          "file": "web/components/showQR/styles/globals.css",
+          "hash": "13483805284306359121"
+        },
+        {
+          "file": "web/components/showQR/types/general.ts",
+          "hash": "9568114921145855761",
+          "deps": [
+            "npm:next-seo"
+          ]
+        },
+        {
+          "file": "web/components/showQR/types/index.ts",
+          "hash": "17266110605708208267"
+        },
+        {
+          "file": "web/components/showQR/types/solana/ReadApi.ts",
+          "hash": "12165975125072216401",
+          "deps": [
+            "npm:@metaplex-foundation/js",
+            "npm:@solana/spl-account-compression"
+          ]
+        },
+        {
+          "file": "web/components/solana/solana-provider.tsx",
+          "hash": "6458795527245399267",
+          "deps": [
+            "npm:next",
+            "npm:@coral-xyz/anchor",
+            "npm:@solana/wallet-adapter-base",
+            "npm:@solana/wallet-adapter-react",
+            "npm:@solana/wallet-adapter-react-ui",
+            "npm:react",
+            [
+              "npm:@solana/wallet-adapter-react-ui",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "web/components/ui/3d-card.tsx",
+          "hash": "12660949464104603162",
+          "deps": [
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/ui/Spotlight.tsx",
+          "hash": "11325493430829311088",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/ui/aurora-background.tsx",
+          "hash": "12512172071052756839",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/ui/background-beams.tsx",
+          "hash": "16020777570483232548",
+          "deps": [
+            "npm:react",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "web/components/ui/background-boxes.tsx",
+          "hash": "12933624232674439632",
+          "deps": [
+            "npm:react",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "web/components/ui/background-gradient-animation.tsx",
+          "hash": "66198577327334679",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/ui/background-gradient.tsx",
+          "hash": "9079613466953031713",
+          "deps": [
+            "npm:react",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "web/components/ui/bento-grid.tsx",
+          "hash": "16876912746473801567"
+        },
+        {
+          "file": "web/components/ui/bottomGradient.tsx",
+          "hash": "15797201287218131197"
+        },
+        {
+          "file": "web/components/ui/button.tsx",
+          "hash": "7704588979703932920",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-slot",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "web/components/ui/floating-navbar.tsx",
+          "hash": "15995878811519487740",
+          "deps": [
+            "npm:react",
+            "npm:framer-motion",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/ui/form.tsx",
+          "hash": "8011631228150942224",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-label",
+            "npm:@radix-ui/react-slot",
+            "npm:react-hook-form"
+          ]
+        },
+        {
+          "file": "web/components/ui/glowing-stars.tsx",
+          "hash": "3703362111809354063",
+          "deps": [
+            "npm:react",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "web/components/ui/infinite-moving-cards.tsx",
+          "hash": "5352275308710457172",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/components/ui/input.tsx",
+          "hash": "8672063171679396468",
+          "deps": [
+            "npm:react",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "web/components/ui/label.tsx",
+          "hash": "7830453700104275068",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-label"
+          ]
+        },
+        {
+          "file": "web/components/ui/lamp.tsx",
+          "hash": "9688670162488629371",
+          "deps": [
+            "npm:react",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "web/components/ui/moving-border.tsx",
+          "hash": "14194717967618873136",
+          "deps": [
+            "npm:react",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "web/components/ui/navbar-menu.tsx",
+          "hash": "182854744328202659",
+          "deps": [
+            "npm:react",
+            "npm:framer-motion",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/components/ui/sticky-scroll-reveal.tsx",
+          "hash": "13877626352449865506",
+          "deps": [
+            "npm:react",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "web/components/ui/ui-layout.tsx",
+          "hash": "14355877350938542656",
+          "deps": [
+            "npm:react",
+            "npm:next",
+            "npm:react-hot-toast"
+          ]
+        },
+        {
+          "file": "web/data/kazi.json",
+          "hash": "13354274577344081443"
+        },
+        {
+          "file": "web/data/nid.json",
+          "hash": "17427159296051777002"
+        },
+        {
+          "file": "web/data/registerLocation.json",
+          "hash": "4811232684373261746"
+        },
+        {
+          "file": "web/data/registers.json",
+          "hash": "10956491247165361707"
+        },
+        {
+          "file": "web/data/services.json",
+          "hash": "16895142169008392314"
+        },
+        {
+          "file": "web/data/team.json",
+          "hash": "14443993819945245590"
+        },
+        {
+          "file": "web/data/valuation.json",
+          "hash": "6643921918636974128"
+        },
+        {
+          "file": "web/data/whychooseusdata.json",
+          "hash": "13497837055991070339"
+        },
+        {
+          "file": "web/global.d.ts",
+          "hash": "14198632476901621193",
+          "deps": [
+            "npm:mongodb"
+          ]
+        },
+        {
+          "file": "web/hooks/useIsHomePage.tsx",
+          "hash": "5257280131137205542",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/hooks/useOnBoardForm.tsx",
+          "hash": "2324462163886025825",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/hooks/usePhantomProvider.tsx",
+          "hash": "15940090777148374240",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "web/index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "web/next-env.d.ts",
+          "hash": "11179767829745269784"
+        },
+        {
+          "file": "web/next.config.js",
+          "hash": "11075275437133129850",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "web/pages/api/getAppointment.tsx",
+          "hash": "3731437809169478205",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/pages/api/hello.ts",
+          "hash": "3020852437868584735",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "web/pages/api/mint/[[...dropKey]].ts",
+          "hash": "4223296712172912088",
+          "deps": [
+            "npm:next",
+            "npm:@solana/web3.js",
+            "npm:@metaplex-foundation/mpl-bubblegum"
+          ]
+        },
+        {
+          "file": "web/pages/api/saveAppointment.tsx",
+          "hash": "189568627912517566",
+          "deps": [
+            "npm:next",
+            "npm:mongodb"
+          ]
+        },
+        {
+          "file": "web/postcss.config.js",
+          "hash": "11718905695467525629"
+        },
+        {
+          "file": "web/project.json",
+          "hash": "12806852895835811998"
+        },
+        {
+          "file": "web/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "web/public/favicon.ico",
+          "hash": "13871463210711627531"
+        },
+        {
+          "file": "web/public/files/whitepaper.pdf",
+          "hash": "7316839080019529552"
+        },
+        {
+          "file": "web/public/images/NFT.jpg",
+          "hash": "3048330346894704154"
+        },
+        {
+          "file": "web/public/images/Nuptial-Link.svg",
+          "hash": "4540597043427403918"
+        },
+        {
+          "file": "web/public/images/Nuptiallinkppt.png",
+          "hash": "15741392952962270360"
+        },
+        {
+          "file": "web/public/images/finger.gif",
+          "hash": "12774680286989598562"
+        },
+        {
+          "file": "web/public/images/icons8-fingerprint-scan.gif",
+          "hash": "15501792505999328301"
+        },
+        {
+          "file": "web/public/images/sdg.png",
+          "hash": "1505164476341986291"
+        },
+        {
+          "file": "web/public/images/shahal.jpg",
+          "hash": "7387681729547640672"
+        },
+        {
+          "file": "web/public/images/sif sir.png",
+          "hash": "12819254097727954758"
+        },
+        {
+          "file": "web/public/images/solana.png",
+          "hash": "6863311436840504129"
+        },
+        {
+          "file": "web/public/images/whitepaper.png",
+          "hash": "17335953378769105114"
+        },
+        {
+          "file": "web/public/logo.png",
+          "hash": "6801843247957137646"
+        },
+        {
+          "file": "web/public/qr-frame.svg",
+          "hash": "2697643617073322322"
+        },
+        {
+          "file": "web/tsconfig.json",
+          "hash": "10836663897421372905"
+        },
+        {
+          "file": "web/types.d.tsx",
+          "hash": "3807140325349705128",
+          "deps": [
+            "npm:@solana/web3.js"
+          ]
+        },
+        {
+          "file": "web/utils/cn.ts",
+          "hash": "16129165447226695521",
+          "deps": [
+            "npm:clsx",
+            "npm:tailwind-merge"
+          ]
+        },
+        {
+          "file": "web/utils/mongodb.tsx",
+          "hash": "5018729815828491506",
+          "deps": [
+            "npm:mongodb"
+          ]
+        },
+        {
+          "file": "web/tailwind.config.jsx",
+          "hash": "7760725689843391926",
+          "deps": [
+            "npm:tailwindcss",
+            "npm:@nx/react",
+            "npm:daisyui"
+          ]
+        }
+      ],
+      "anchor": [
+        {
+          "file": "anchor/.eslintrc.json",
+          "hash": "10876657505767112116"
+        },
+        {
+          "file": "anchor/.swcrc",
+          "hash": "3236768094882387443"
+        },
+        {
+          "file": "anchor/Anchor.toml",
+          "hash": "765317184948952733"
+        },
+        {
+          "file": "anchor/Cargo.lock",
+          "hash": "7700862290391070188"
+        },
+        {
+          "file": "anchor/Cargo.toml",
+          "hash": "18016256559089331344"
+        },
+        {
+          "file": "anchor/README.md",
+          "hash": "7511245087790753582"
+        },
+        {
+          "file": "anchor/jest.config.ts",
+          "hash": "10789820129713498849"
+        },
+        {
+          "file": "anchor/migrations/deploy.ts",
+          "hash": "165601981430021943",
+          "deps": [
+            "npm:@coral-xyz/anchor"
+          ]
+        },
+        {
+          "file": "anchor/package.json",
+          "hash": "3466498900967644737",
+          "deps": [
+            "npm:@coral-xyz/anchor",
+            "npm:@solana/web3.js"
+          ]
+        },
+        {
+          "file": "anchor/programs/counter/Cargo.toml",
+          "hash": "8866184084946102052"
+        },
+        {
+          "file": "anchor/programs/counter/Xargo.toml",
+          "hash": "12304191003573283670"
+        },
+        {
+          "file": "anchor/programs/counter/src/checkmarriage.rs",
+          "hash": "4557349737478732052"
+        },
+        {
+          "file": "anchor/programs/counter/src/lib.rs",
+          "hash": "10248512348579112085"
+        },
+        {
+          "file": "anchor/project.json",
+          "hash": "141831645580095741"
+        },
+        {
+          "file": "anchor/src/counter-exports.ts",
+          "hash": "13747306929032945752",
+          "deps": [
+            "npm:@coral-xyz/anchor",
+            "npm:@solana/web3.js"
+          ]
+        },
+        {
+          "file": "anchor/src/index.ts",
+          "hash": "4944393289674603462"
+        },
+        {
+          "file": "anchor/target/idl/counter.json",
+          "hash": "3620955277966213130"
+        },
+        {
+          "file": "anchor/target/types/counter.ts",
+          "hash": "9757099913305445833"
+        },
+        {
+          "file": "anchor/tests/counter.spec.ts",
+          "hash": "5455236538300247997",
+          "deps": [
+            "npm:@coral-xyz/anchor",
+            "npm:@solana/web3.js"
+          ]
+        },
+        {
+          "file": "anchor/tsconfig.json",
+          "hash": "10304993020986584308"
+        },
+        {
+          "file": "anchor/tsconfig.lib.json",
+          "hash": "12857729230989963964"
+        },
+        {
+          "file": "anchor/tsconfig.spec.json",
+          "hash": "17313551537729802733"
+        }
+      ]
+    }
+  }
+}

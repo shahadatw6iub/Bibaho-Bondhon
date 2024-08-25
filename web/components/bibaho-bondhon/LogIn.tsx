@@ -7,6 +7,7 @@ import BottomGradient from "../ui/bottomGradient";
 import Image from "next/image";
 import { Input } from "../ui/input";
 import kaziData from "../../data/kazi.json";
+import { useWallet } from '@solana/wallet-adapter-react';
 
 interface Kazi {
   nid: string;
@@ -66,6 +67,14 @@ function KaziLoginPage() {
     localStorage.removeItem("loggedInKazi"); // Remove Kazi details from localStorage
   };
 
+  const { publicKey } = useWallet();
+  let kaziAddress = "";
+
+  if (publicKey) {
+    // return (`/account/${publicKey.toString()}`);
+    kaziAddress = publicKey.toString();
+  }
+
   return (
     <main>
       <div>
@@ -85,6 +94,8 @@ function KaziLoginPage() {
                 <p>
                   Address:{" "}
                   {`${kaziDetails?.address.village_or_road}, ${kaziDetails?.address.post_office}, ${kaziDetails?.address.upazila}, ${kaziDetails?.address.district}, ${kaziDetails?.address.division}`}
+                </p>
+                <p>      {publicKey && <p>Public key: {kaziAddress}</p>}
                 </p>
               </div>
               <Link href={""}>
@@ -160,9 +171,8 @@ function KaziLoginPage() {
               </button>
               {loginMessage && (
                 <div
-                  className={`mt-4 text-center font-medium py-2 px-12 ${
-                    loginVerified ? "text-green-500" : "text-red-500"
-                  }`}
+                  className={`mt-4 text-center font-medium py-2 px-12 ${loginVerified ? "text-green-500" : "text-red-500"
+                    }`}
                 >
                   {loginMessage}
                 </div>
