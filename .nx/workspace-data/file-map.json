@@ -10,6 +10,8 @@
     "@nrwl/workspace": "^19.6.2",
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-slot": "^1.1.0",
+    "@react-three/drei": "^9.111.3",
+    "@react-three/fiber": "^8.17.5",
     "@rewind-ui/core": "^0.20.0",
     "@solana-developers/preset-next": "3.0.1",
     "@solana/pay": "^0.2.5",
@@ -44,6 +46,8 @@
     "react-hot-toast": "2.4.1",
     "react-icons": "^5.3.0",
     "tailwind-merge": "^2.5.2",
+    "three": "^0.167.1",
+    "three-globe": "^2.31.1",
     "tslib": "^2.3.0",
     "@swc-node/register": "~1.8.0",
     "@swc/cli": "~0.3.12",
@@ -87,72 +91,72 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "yarn.lock",
-        "hash": "9445644992797029988"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "7032490051060470550"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "17866138117546000433"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
         "file": ".editorconfig",
         "hash": "5443105041930014821"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "17191321825795947080"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "756318101139639894"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "nx.json",
-        "hash": "14557014133078539282"
-      },
-      {
-        "file": "vercel.json",
-        "hash": "1598408354266276258"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "13262621391202437136"
       },
       {
         "file": ".eslintignore",
         "hash": "7663861978715868291"
       },
       {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13262621391202437136"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "7032490051060470550"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "17191321825795947080"
+      },
+      {
         "file": "README.md",
         "hash": "17172203896503313743"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "14557014133078539282"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "11346872820436047121"
+      },
+      {
+        "file": "package.json",
+        "hash": "12240317409694204753"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "6983283808866658478"
       },
       {
-        "file": "package.json",
-        "hash": "16132484106034917422"
+        "file": "vercel.json",
+        "hash": "1598408354266276258"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
+        "file": "yarn.lock",
+        "hash": "11254097761266909402"
       }
     ],
     "projectFileMap": {
@@ -260,7 +264,7 @@
         },
         {
           "file": "web/app/page.tsx",
-          "hash": "1207396853143022660"
+          "hash": "13077087185923617526"
         },
         {
           "file": "web/app/pre-merital-verification/page.tsx",
@@ -445,6 +449,15 @@
             "npm:next",
             "npm:react-icons",
             "npm:react-hot-toast"
+          ]
+        },
+        {
+          "file": "web/components/bibaho-bondhon/Globe.tsx",
+          "hash": "5080247039206626867",
+          "deps": [
+            "npm:react",
+            "npm:framer-motion",
+            "npm:next"
           ]
         },
         {
@@ -937,6 +950,17 @@
           ]
         },
         {
+          "file": "web/components/ui/globe.tsx",
+          "hash": "3930516874460650121",
+          "deps": [
+            "npm:react",
+            "npm:three",
+            "npm:three-globe",
+            "npm:@react-three/fiber",
+            "npm:@react-three/drei"
+          ]
+        },
+        {
           "file": "web/components/ui/glowing-stars.tsx",
           "hash": "3703362111809354063",
           "deps": [
@@ -969,7 +993,7 @@
         },
         {
           "file": "web/components/ui/lamp.tsx",
-          "hash": "9688670162488629371",
+          "hash": "6407259372591779230",
           "deps": [
             "npm:react",
             "npm:framer-motion"
@@ -1008,6 +1032,10 @@
             "npm:next",
             "npm:react-hot-toast"
           ]
+        },
+        {
+          "file": "web/data/globe.json",
+          "hash": "8249812570807824889"
         },
         {
           "file": "web/data/kazi.json",
@@ -1184,6 +1212,15 @@
           "hash": "2697643617073322322"
         },
         {
+          "file": "web/tailwind.config.jsx",
+          "hash": "7760725689843391926",
+          "deps": [
+            "npm:tailwindcss",
+            "npm:@nx/react",
+            "npm:daisyui"
+          ]
+        },
+        {
           "file": "web/tsconfig.json",
           "hash": "10836663897421372905"
         },
@@ -1207,15 +1244,6 @@
           "hash": "5018729815828491506",
           "deps": [
             "npm:mongodb"
-          ]
-        },
-        {
-          "file": "web/tailwind.config.jsx",
-          "hash": "7760725689843391926",
-          "deps": [
-            "npm:tailwindcss",
-            "npm:@nx/react",
-            "npm:daisyui"
           ]
         }
       ],
